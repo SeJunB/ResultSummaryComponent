@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="results-summary-component-main/assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="border-sky-500">
+    <article class="border-sky-500">
+<!--      Flex Container for the Your Result section.-->
+      <div class="flex flex-col items-center
+                  space-y-4
+                  bg-lightSlateBlue">
+        <h1 class="text-lightLavender text-md
+                   mt-4">Your Result</h1>
+<!--        Score -->
+        <div class="flex flex-col items-center
+                   p-8 px-10 rounded-full
+                   circle
+                   bg-violetBlue">
+          <p class="text-white text-5xl font-bold">76</p>
+          <p class="text-sm text-lightLavender">of 100</p>
+        </div>
+        <h2 class="text-white">Great</h2>
+        <p>  You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+<!--      Flex Container for the Summary Section.-->
+      <div class="flex flex-col">
+        <h2>Summary</h2>
+<!--        Reaction -->
+        <div>
+          <p>Reaction</p>
+          <p>80 / 100</p>
+        </div>
+        <!--        Memory -->
+        <div>
+          <p>Reaction</p>
+          <p>80 / 100</p>
+        </div><!--        Verbal -->
+        <div>
+          <p>Reaction</p>
+          <p>80 / 100</p>
+        </div>
+        <!--        Visual -->
+        <div>
+          <p>Reaction</p>
+          <p>80 / 100</p>
+        </div>
+      </div>
+      <button>Continue</button>
+    </article>
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">SeJun Bae</a>.
+  </div>
+</body>
+</html>
